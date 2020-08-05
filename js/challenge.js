@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // debugger
     function timeHandler() {
-        count ++ 
-        counter.innerText = 1 + parseInt(counter.innerText)
+        count++;
+        counter.innerText = 1 + parseInt(counter.innerText);
     }
 
     function likeCounter() {
-        count ++ 
-        likeCount += 1
+        count++;
+        likeCount += 1;
     } 
 
     setInterval(timeHandler, 1000)
